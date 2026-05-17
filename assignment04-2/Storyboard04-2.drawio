@@ -1,0 +1,649 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="w5leYX_2gKIIW_CiAju5">
+    <mxGraphModel dx="2943" dy="2760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="🗓️" vertex="1">
+          <mxGeometry height="460" width="870" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-137" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="390" width="280" x="20" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Food Category&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="95" y="-754" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-139" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="311" width="250" x="30" y="-693" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-140" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-141" parent="8lnhGH7o7RfVUF7bO8Dy-140" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;/span&gt;1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-142" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-143" parent="8lnhGH7o7RfVUF7bO8Dy-142" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;2 | Spices and Herbs" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-144" parent="8lnhGH7o7RfVUF7bO8Dy-142" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-145" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-146" parent="8lnhGH7o7RfVUF7bO8Dy-145" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;3 | Baby Foods&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-147" parent="8lnhGH7o7RfVUF7bO8Dy-145" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-148" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-149" parent="8lnhGH7o7RfVUF7bO8Dy-148" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;4 | Fats and Oils&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-150" parent="8lnhGH7o7RfVUF7bO8Dy-148" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-151" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-152" parent="8lnhGH7o7RfVUF7bO8Dy-151" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;5 | Poultry Products&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-153" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="166" width="250" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-154" parent="8lnhGH7o7RfVUF7bO8Dy-153" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;6 | Soups, Sauces, and Gravies" vertex="1">
+          <mxGeometry height="20" width="222" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-155" parent="8lnhGH7o7RfVUF7bO8Dy-153" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-156" parent="8lnhGH7o7RfVUF7bO8Dy-153" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.scrollBar;strokeColor=#999999;barPos=1.4;fillColor2=#99ddff;strokeColor2=none;direction=north;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="292" width="20" x="241" y="-126" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-157" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="230" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-158" parent="8lnhGH7o7RfVUF7bO8Dy-157" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;7 | Sausages and Luncheon Meats&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="212" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-159" parent="8lnhGH7o7RfVUF7bO8Dy-157" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-160" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-161" parent="8lnhGH7o7RfVUF7bO8Dy-160" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;8 | Breakfast Cereals" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-162" parent="8lnhGH7o7RfVUF7bO8Dy-160" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-163" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="230" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-164" parent="8lnhGH7o7RfVUF7bO8Dy-163" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;9 | Fruits and Fruit Juices&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="205.64705882352942" x="21.35294117647059" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-165" parent="8lnhGH7o7RfVUF7bO8Dy-163" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-166" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-167" parent="8lnhGH7o7RfVUF7bO8Dy-166" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;10 | Port Products" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-168" parent="8lnhGH7o7RfVUF7bO8Dy-166" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-169" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="250" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-170" parent="8lnhGH7o7RfVUF7bO8Dy-169" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="11 | Vegetables and Vegetable Products" vertex="1">
+          <mxGeometry height="20" width="230" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-171" parent="8lnhGH7o7RfVUF7bO8Dy-169" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-172" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-139" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="230" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-173" parent="8lnhGH7o7RfVUF7bO8Dy-172" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;12 | Nut and Seed Products" vertex="1">
+          <mxGeometry height="20" width="212" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-174" parent="8lnhGH7o7RfVUF7bO8Dy-172" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-175" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; search Food Category...&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="50" y="-727" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-176" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Search.svg;" value="" vertex="1">
+          <mxGeometry height="20" width="19.69" x="56" y="-722" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-179" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;USDA Food Product Dashboard&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="260" y="-790" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-180" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="350" width="540" x="310" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-181" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; search Product Description...&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="310" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-182" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Search.svg;" value="" vertex="1">
+          <mxGeometry height="20" width="19.69" x="316" y="-744" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-183" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Select a food category to get started!" vertex="1">
+          <mxGeometry height="30" width="220" x="470" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-184" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Category" vertex="1">
+          <mxGeometry height="20" width="150" x="310" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-185" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Product Description&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="260" x="460" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-186" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Last Modified Date" vertex="1">
+          <mxGeometry height="20" width="130" x="720" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-187" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;YYYY-MM-DD - YYYY-MM-DD&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="620" y="-751" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-188" parent="1" style="text;whiteSpace=wrap;fontSize=20;" value="🗓️" vertex="1">
+          <mxGeometry height="40" width="50" x="620" y="-756" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-189" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="🗓️" vertex="1">
+          <mxGeometry height="460" width="890" y="-222" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-190" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="390" width="280" x="20" y="-172" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-191" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Food Category&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="95" y="-176" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-192" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="311" width="380.75" x="30" y="-115" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-193" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-194" parent="8lnhGH7o7RfVUF7bO8Dy-193" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;/span&gt;1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-195" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-196" parent="8lnhGH7o7RfVUF7bO8Dy-195" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;5 | Poultry Products" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-197" parent="8lnhGH7o7RfVUF7bO8Dy-195" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-198" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="250" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-199" parent="8lnhGH7o7RfVUF7bO8Dy-198" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;10 | Pork Products" vertex="1">
+          <mxGeometry height="20" width="232" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-200" parent="8lnhGH7o7RfVUF7bO8Dy-198" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-201" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group" value="" vertex="1">
+          <mxGeometry height="20" width="240" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-202" parent="8lnhGH7o7RfVUF7bO8Dy-201" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;11 | Vegetables and Vegetable Products&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="222" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-203" parent="8lnhGH7o7RfVUF7bO8Dy-201" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-204" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-205" parent="8lnhGH7o7RfVUF7bO8Dy-204" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;12 | Nut and Seed Products" vertex="1">
+          <mxGeometry height="20" width="182" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-206" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="166" width="250" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-207" parent="8lnhGH7o7RfVUF7bO8Dy-206" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;13 | Beef Products" vertex="1">
+          <mxGeometry height="20" width="222" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-208" parent="8lnhGH7o7RfVUF7bO8Dy-206" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-209" parent="8lnhGH7o7RfVUF7bO8Dy-206" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.scrollBar;strokeColor=#999999;barPos=81.964;fillColor2=#99ddff;strokeColor2=none;direction=north;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="292" width="20" x="241" y="-126" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-210" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="230" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-211" parent="8lnhGH7o7RfVUF7bO8Dy-210" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;15 | Finfish and Shellfish Products" vertex="1">
+          <mxGeometry height="20" width="212" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-212" parent="8lnhGH7o7RfVUF7bO8Dy-210" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-213" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="230" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-214" parent="8lnhGH7o7RfVUF7bO8Dy-213" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;16 | Legumes and Legume Products" vertex="1">
+          <mxGeometry height="20" width="212" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-215" parent="8lnhGH7o7RfVUF7bO8Dy-213" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-216" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="230" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-217" parent="8lnhGH7o7RfVUF7bO8Dy-216" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="17 | Lamb, Veal, and Game Products" vertex="1">
+          <mxGeometry height="20" width="205.64705882352942" x="21.35294117647059" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-218" parent="8lnhGH7o7RfVUF7bO8Dy-216" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-219" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-220" parent="8lnhGH7o7RfVUF7bO8Dy-219" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;18 | Baked Products" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-221" parent="8lnhGH7o7RfVUF7bO8Dy-219" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-243" parent="8lnhGH7o7RfVUF7bO8Dy-192" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=light-dark(#99ddff, #ededed);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="12.75" width="245.5" x="128.12" y="146.88" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-228" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;products&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="50" y="-149" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-229" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Search.svg;" value="" vertex="1">
+          <mxGeometry height="20" width="19.69" x="56" y="-144" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-230" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-1059.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="30" y="-113" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-231" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-1059.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="30" y="-8" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-232" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;USDA Food Product Dashboard&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="260" y="-212" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-233" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="350" width="540" x="310" y="-132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-234" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; search Product Description...&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="310" y="-172" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-235" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Search.svg;" value="" vertex="1">
+          <mxGeometry height="20" width="19.69" x="316" y="-166" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-237" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Category" vertex="1">
+          <mxGeometry height="20" width="150" x="310" y="-132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-238" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Product Description&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="260" x="460" y="-132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-239" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Last Modified Date" vertex="1">
+          <mxGeometry height="20" width="130" x="720" y="-132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-240" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;YYYY-MM-DD - YYYY-MM-DD&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="620" y="-173" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-241" parent="1" style="text;whiteSpace=wrap;fontSize=20;" value="🗓️" vertex="1">
+          <mxGeometry height="40" width="50" x="620" y="-178" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-242" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;i&gt;Panel 1: &lt;/i&gt;&lt;/b&gt;Dashboard Homepage&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;User views the main options: select a food category, search product descriptions, and filter a date range.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;As no food category has been selected yet, the results pane is empty and displays instructions to &quot;Select a food category to get started!&quot;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="400" x="10.75" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-310" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="30" y="-690" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-311" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="30" y="-586" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-312" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;i&gt;Panel 2:&amp;nbsp;&lt;/i&gt;&lt;/b&gt;Category Results&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;User searches for all categories containing the word &quot;products&quot; and selects categories 1 and 12.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;The results are displayed in the righthand result pane, sorted alphabetically by Description as the default.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="400" x="10.75" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-313" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="-112" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-329" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="-82" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-330" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="-52" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-331" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="-22" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-332" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-333" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-334" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-335" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-336" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-337" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-338" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-339" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Beverage, instant breakfast powder, chocolate..." vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="-112" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-340" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Beverage, instant breakfast powder, chocolate..." vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="-82" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-341" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Bongards Cheddar Cheese Stick - 168/1 oz" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="-52" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-342" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Bongards Cheddar Slices - 32 SOS - 8/1.5#" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="-22" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-343" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="Bongards Low Moisture Part Skim Mozzarella..." vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-344" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Bongards Low Moisture Part Skim Mozzarella..." vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-345" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Bongards Low Moisture Part Skim Mozzarella..." vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-346" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Bongards Marble Cheese Stick - 168/1 oz" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-347" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="&lt;div align=&quot;left&quot;&gt;Bongards Monterey Jack and Cheddar Fancy...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-348" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="&lt;div align=&quot;left&quot;&gt;Bongards Pasteurized Blended Low Moisture...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-349" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Bongards Pepper Jack Slices - 32 SOS - 8/1.5#" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-350" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2024-12-19" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="-112" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-351" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2013-12-23" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="-82" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-352" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2013-12-23" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="-52" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-353" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2023-10-26" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="-22" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-354" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2024-08-15" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-355" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1023-10-26" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-356" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2024-08-15" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-357" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2024-08-15" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-358" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2024-08-15" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-359" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="202-03-16" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-360" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2024-08-15" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-361" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="350" width="540" x="310" y="-132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-362" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="20" width="540" x="310" y="-132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-363" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.scrollBar;strokeColor=#999999;barPos=1.4;fillColor2=#99ddff;strokeColor2=none;direction=north;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="352" width="20" x="860" y="-132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-364" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="🗓️" vertex="1">
+          <mxGeometry height="460" width="890" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-365" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="390" width="280" x="20" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-366" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Food Category&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="95" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-367" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="311" width="380.75" x="30" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-368" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-369" parent="8lnhGH7o7RfVUF7bO8Dy-368" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;/span&gt;1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-370" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-371" parent="8lnhGH7o7RfVUF7bO8Dy-370" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;5 | Poultry Products" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-372" parent="8lnhGH7o7RfVUF7bO8Dy-370" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-373" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="250" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-374" parent="8lnhGH7o7RfVUF7bO8Dy-373" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;10 | Pork Products" vertex="1">
+          <mxGeometry height="20" width="232" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-375" parent="8lnhGH7o7RfVUF7bO8Dy-373" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-376" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group" value="" vertex="1">
+          <mxGeometry height="20" width="240" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-377" parent="8lnhGH7o7RfVUF7bO8Dy-376" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;11 | Vegetables and Vegetable Products&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="222" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-378" parent="8lnhGH7o7RfVUF7bO8Dy-376" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-379" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-380" parent="8lnhGH7o7RfVUF7bO8Dy-379" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;12 | Nut and Seed Products" vertex="1">
+          <mxGeometry height="20" width="182" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-381" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="166" width="250" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-382" parent="8lnhGH7o7RfVUF7bO8Dy-381" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;13 | Beef Products" vertex="1">
+          <mxGeometry height="20" width="222" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-383" parent="8lnhGH7o7RfVUF7bO8Dy-381" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-384" parent="8lnhGH7o7RfVUF7bO8Dy-381" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.scrollBar;strokeColor=#999999;barPos=81.964;fillColor2=#99ddff;strokeColor2=none;direction=north;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="292" width="20" x="241" y="-126" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-385" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="230" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-386" parent="8lnhGH7o7RfVUF7bO8Dy-385" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;15 | Finfish and Shellfish Products" vertex="1">
+          <mxGeometry height="20" width="212" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-387" parent="8lnhGH7o7RfVUF7bO8Dy-385" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-388" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="230" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-389" parent="8lnhGH7o7RfVUF7bO8Dy-388" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;16 | Legumes and Legume Products" vertex="1">
+          <mxGeometry height="20" width="212" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-390" parent="8lnhGH7o7RfVUF7bO8Dy-388" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-391" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="230" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-392" parent="8lnhGH7o7RfVUF7bO8Dy-391" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="17 | Lamb, Veal, and Game Products" vertex="1">
+          <mxGeometry height="20" width="205.64705882352942" x="21.35294117647059" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-393" parent="8lnhGH7o7RfVUF7bO8Dy-391" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-394" connectable="0" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="group;align=left;" value="" vertex="1">
+          <mxGeometry height="20" width="170" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-395" parent="8lnhGH7o7RfVUF7bO8Dy-394" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp;18 | Baked Products" vertex="1">
+          <mxGeometry height="20" width="152" x="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-396" parent="8lnhGH7o7RfVUF7bO8Dy-394" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-blank-1056.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-397" parent="8lnhGH7o7RfVUF7bO8Dy-367" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=light-dark(#99ddff, #ededed);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="12.75" width="245.5" x="128.12" y="146.88" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-398" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;products&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="50" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-399" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Search.svg;" value="" vertex="1">
+          <mxGeometry height="20" width="19.69" x="56" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-400" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-1059.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="30" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-401" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/check-box-outline-1059.svg" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="30" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-402" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;USDA Food Product Dashboard&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="260" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-403" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="350" width="540" x="310" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-404" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(123, 123, 123), rgb(237, 237, 237));&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;vanilla&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="310" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-405" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Search.svg;" value="" vertex="1">
+          <mxGeometry height="20" width="19.69" x="316" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-406" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Category" vertex="1">
+          <mxGeometry height="20" width="150" x="310" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-407" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Product Description&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="260" x="460" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-408" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Last Modified Date" vertex="1">
+          <mxGeometry height="20" width="130" x="720" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-409" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(119, 118, 123), rgb(237, 237, 237));&quot;&gt;1990-01-01 - 2020-01-01&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="620" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-410" parent="1" style="text;whiteSpace=wrap;fontSize=20;" value="🗓️" vertex="1">
+          <mxGeometry height="40" width="50" x="620" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-411" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;i&gt;Panel 3:&amp;nbsp;&lt;/i&gt;&lt;/b&gt;Filtered Category Results&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;User narrows the results by searching for &quot;vanilla&quot; in the product description and restricting the date range to 1990-01-01 - 2020-01-01. This limits the results to only 8 records&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;The results are displayed in the righthand result pane, and the user now sorts the results in reverse alphabetical order by product description.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="400" x="10.75" y="828" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-412" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-413" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-414" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-415" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-416" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-417" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="628" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-418" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="1 | Dairy and Egg Products" vertex="1">
+          <mxGeometry height="30" width="150" x="310" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-423" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Yogurt, vanilla or lemon flavor, nonfat milk, sw..." vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-424" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Yogurt, vanilla or lemon flavor, nonfat milk, sw..." vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-425" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Yogurt, vanilla, low fat, fortified with vitamin D" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-426" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Yogurt, vanilla, low fat" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-427" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="&lt;div align=&quot;left&quot;&gt;Yogurt, Greek, vanilla, nonfat&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-428" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Yogurt, Greek, vanilla, lowfat" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="628" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-429" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);align=left;" value="Milk shakes, thick vanilla" vertex="1">
+          <mxGeometry height="30" width="260" x="460" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-434" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2010-01-04" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-435" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2013-12-23" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-436" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2016-02-06" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-437" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2019-02-13" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-438" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2016-02-06" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-439" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2016-02-06" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="628" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-440" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#77767b, #ededed);" value="2006-11-30" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-446" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="20" width="540" x="310" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-447" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.scrollBar;strokeColor=#999999;barPos=1.4;fillColor2=#99ddff;strokeColor2=none;direction=north;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="352" width="20" x="860" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-450" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=light-dark(#99ddff, #ededed);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="12.75" width="302.75" x="718.63" y="626.63" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-451" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="350" width="540" x="310" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-452" parent="1" style="triangle;whiteSpace=wrap;html=1;fillColor=#666666;rotation=-90;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="655" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="8lnhGH7o7RfVUF7bO8Dy-453" parent="1" style="triangle;whiteSpace=wrap;html=1;fillColor=#666666;rotation=90;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="648" y="-132" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
