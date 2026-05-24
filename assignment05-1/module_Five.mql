@@ -1,0 +1,23 @@
+/* ORIGINAL FILE
+db.nutrition.countDocuments({ "row.Nutrient code": {$ne: null} })
+db.nutrition.countDocuments({ "row.Nutrient code": {$eq: null} })
+db.nutrition.countDocuments({})
+db.nutrition.countDocuments({ "row.Measure description": {$eq: "cup"} })
+*/
+
+// modified to display output when run from a shell script
+print("--- SENTINEL QUERY RESULTS ---");
+
+const validNutrients = db.nutrient_vals.countDocuments({ "row.Nutrient code": {$ne: null} });
+print("Documents with a valid Nutrient code: " + validNutrients);
+
+const nullNutrients = db.nutrient_vals.countDocuments({ "row.Nutrient code": {$eq: null} });
+print("Documents with a null Nutrient code:  " + nullNutrients);
+
+const totalDocs = db.nutrient_vals.countDocuments({});
+print("Total number of documents:          " + totalDocs);
+
+const cupCount = db.nutrient_vals.countDocuments({ "row.Measure description": {$eq: "cup"} });
+print("Documents with 'cup' in description:   " + cupCount);
+
+print("--- END OF REPORT ---");
