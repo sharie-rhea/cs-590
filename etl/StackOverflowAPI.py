@@ -12,7 +12,6 @@ import requests
 import time
 
 logger = logging.getLogger("StackOverflowAPI")
-logging.basicConfig(level=logging.INFO)
 
 
 class StackOverflowAPI:
@@ -22,6 +21,9 @@ class StackOverflowAPI:
     """
 
     BASE_URL = "https://api.stackexchange.com/2.3"
+
+    def __init__(self, log_level: str) -> None:
+        logging.basicConfig(level=log_level)
 
     def chunk_ids(self, id_list: list[int], chunk_size: int = 100) -> list[list[int]]:
         """
@@ -75,7 +77,7 @@ class StackOverflowAPI:
         Params:
             question_ids: list[int] - the IDs of the questions to query
         Returns:
-            dict[int, dict] - {question_id: {"owner_id": int | None, "tags": list[str]}}
+            dict[int, dict] - {question_id: {"owner_id": int | None, "tags": str}}
         """
         results = {}
         chunks = self.chunk_ids(question_ids)
@@ -96,9 +98,9 @@ class StackOverflowAPI:
                 logger.debug(f"--- Question {question_id} Details ---")
                 logger.debug(f"Title: {item.get('title')}")
                 logger.debug(f"Posted By: {owner.get('display_name')} (User ID: {owner_id})")
-                logger.debug(f"Tags: {', '.join(tags)}\n")
+                logger.debug(f"Tags: {'|'.join(tags)}\n")
 
-                results[question_id] = {"owner_id": owner_id, "tags": tags}
+                results[question_id] = {"owner_id": owner_id, "tags": '|'.join(tags)}
 
         return results
 
@@ -109,7 +111,7 @@ class StackOverflowAPI:
         Params:
             answer_ids: list[int] - the IDs of the answers to query
         Returns:
-            dict[int, dict] - {answer_id: {"owner_id": int | None, "creation_date": int}}
+            dict[int, dict] - {answer_id: {"owner_id": int | None, "question_uuid": int | None, "creation_date": int}}
         """
         results = {}
         chunks = self.chunk_ids(answer_ids)
@@ -125,13 +127,14 @@ class StackOverflowAPI:
                 answer_id = item.get("answer_id")
                 owner = item.get("owner", {})
                 owner_id = owner.get("user_id")
+                question_uuid = item.get("question_id")
                 raw_timestamp = item.get("creation_date")
 
                 logger.debug(f"--- Answer {answer_id} Details ---")
                 logger.debug(f"Posted By: {owner.get('display_name')} (User ID: {owner_id})")
                 logger.debug(f"Score: {item.get('score')}\n")
 
-                results[answer_id] = {"owner_id": owner_id, "creation_date": raw_timestamp}
+                results[answer_id] = {"owner_id": owner_id, "question_uuid": question_uuid, "creation_date": raw_timestamp}
 
         return results
 
@@ -175,7 +178,7 @@ if __name__ == "__main__":
     sample_answer_id = [69272967]
     sample_comment_id = [122336972]
 
-    stackoverflowAPI = StackOverflowAPI()
+    stackoverflowAPI = StackOverflowAPI("DEBUG")
     stackoverflowAPI.get_questions_info(sample_question_id)
     stackoverflowAPI.get_answers_info(sample_answer_id)
     stackoverflowAPI.get_comments_info(sample_comment_id)

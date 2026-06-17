@@ -6,16 +6,16 @@
 This file serves to clean and enrich the original provided CSV dataset.
 The main tasks involve cleaning raw text fields (removing /r characters and
 html escaped characters) and enriching data connections by querying the
-Stack Overflow API.
-"""
+Stack Overflow API."""
 
+import csv
 import html
 import logging
+import sys
 import pandas as pd
 from StackOverflowAPI import StackOverflowAPI
 
 logger = logging.getLogger("cleaner")
-logging.basicConfig(level=logging.INFO)
 
 # utility functions
 
@@ -57,16 +57,17 @@ def clean_answers():
     answers_info_dict = api_client.get_answers_info(answer_ids)
     # add to existing data, matching on uuid
     data["user_uuid"] = data["uuid"].map(lambda x: answers_info_dict.get(x, {}).get("owner_id"))
+    data["question_uuid"] = data["uuid"].map(lambda x: answers_info_dict.get(x, {}).get("question_uuid"))
     data["creation_date"] = data["uuid"].map(lambda x: answers_info_dict.get(x, {}).get("creation_date"))
-    # convert timestamp into a readable format
-    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce")
+    # convert timestamp into a readable format, the strftime is the format neo4j looks for in datetime
+    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce").dt.strftime('%Y-%m-%dT%H:%M:%S')
 
     # check our work
     logger.info(f"\nDataFrame update complete! {len(answer_ids)} records updated.")
     logger.debug(data[["uuid", "user_uuid", "creation_date", "creation_date_formatted"]].head())
 
     # write out cleaned and enriched data
-    data.to_csv("../data/cleaned/answer.csv", index=False)
+    data.to_csv("../data/cleaned/answer.csv", index=False, escapechar="\\", quoting=csv.QUOTE_MINIMAL)
 
 
 def clean_comments():
@@ -94,15 +95,15 @@ def clean_comments():
     # add to existing data, matching on uuid
     data["user_uuid"] = data["uuid"].map(lambda x: comment_info_dict.get(x, {}).get("owner_id"))
     data["creation_date"] = data["uuid"].map(lambda x: comment_info_dict.get(x, {}).get("creation_date"))
-    # convert timestamp into a readable format
-    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce")
+    # convert timestamp into a readable format, the strftime is the format neo4j looks for in datetime
+    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce").dt.strftime('%Y-%m-%dT%H:%M:%S')
 
     # check our work
     logger.info(f"\nDataFrame update complete! {len(comment_ids)} records updated.")
     logger.debug(data[["uuid", "user_uuid", "question_uuid", "creation_date", "creation_date_formatted"]].head())
 
     # write out cleaned and enriched data
-    data.to_csv("../data/cleaned/comment.csv", index=False)
+    data.to_csv("../data/cleaned/comment.csv", index=False, escapechar="\\", quoting=csv.QUOTE_MINIMAL)
 
 
 def clean_questions():
@@ -133,15 +134,15 @@ def clean_questions():
     # add to existing data, matching on uuid
     data["user_uuid"] = data["uuid"].map(lambda x: question_info_dict.get(x, {}).get("owner_id"))
     data["tags"] = data["uuid"].map(lambda x: question_info_dict.get(x, {}).get("tags"))
-    # convert timestamp into a readable format
-    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce")
+    # convert timestamp into a readable format, the strftime is the format neo4j looks for in datetime
+    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce").dt.strftime('%Y-%m-%dT%H:%M:%S')
 
     # check our work
     logger.info(f"\nDataFrame update complete! {len(question_ids)} records updated.")
     logger.debug(data[["uuid", "user_uuid", "tags", "creation_date", "creation_date_formatted"]].head())
 
     # write out cleaned and enriched data
-    data.to_csv("../data/cleaned/question.csv", index=False)
+    data.to_csv("../data/cleaned/question.csv", index=False, escapechar="\\", quoting=csv.QUOTE_MINIMAL)
 
 
 def clean_tags():
@@ -179,7 +180,10 @@ def clean_users():
 
 
 if __name__ == "__main__":
-    api_client = StackOverflowAPI()
+    log_level = sys.argv[1] if len(sys.argv) > 1 else "INFO"
+    logging.basicConfig(level=log_level)
+    api_client = StackOverflowAPI(log_level)
+
     if input("Clean and enrich Answers? [y/N]: ").strip().lower() in ("y", "yes"):
         clean_answers()
     if input("Clean and enrich Comments? [y/N]: ").strip().lower() in ("y", "yes"):
