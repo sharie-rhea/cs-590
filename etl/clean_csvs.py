@@ -1,6 +1,6 @@
 # Author: Sharie Rhea
 # Date: 06.16.26
-# Course: CS590
+# Course: SNHU CS590
 
 """
 This file serves to clean and enrich the original provided CSV dataset.
@@ -60,7 +60,9 @@ def clean_answers():
     data["question_uuid"] = data["uuid"].map(lambda x: answers_info_dict.get(x, {}).get("question_uuid"))
     data["creation_date"] = data["uuid"].map(lambda x: answers_info_dict.get(x, {}).get("creation_date"))
     # convert timestamp into a readable format, the strftime is the format neo4j looks for in datetime
-    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce").dt.strftime('%Y-%m-%dT%H:%M:%S')
+    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce").dt.strftime(
+        "%Y-%m-%dT%H:%M:%S"
+    )
 
     # check our work
     logger.info(f"\nDataFrame update complete! {len(answer_ids)} records updated.")
@@ -96,7 +98,9 @@ def clean_comments():
     data["user_uuid"] = data["uuid"].map(lambda x: comment_info_dict.get(x, {}).get("owner_id"))
     data["creation_date"] = data["uuid"].map(lambda x: comment_info_dict.get(x, {}).get("creation_date"))
     # convert timestamp into a readable format, the strftime is the format neo4j looks for in datetime
-    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce").dt.strftime('%Y-%m-%dT%H:%M:%S')
+    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce").dt.strftime(
+        "%Y-%m-%dT%H:%M:%S"
+    )
 
     # check our work
     logger.info(f"\nDataFrame update complete! {len(comment_ids)} records updated.")
@@ -135,7 +139,9 @@ def clean_questions():
     data["user_uuid"] = data["uuid"].map(lambda x: question_info_dict.get(x, {}).get("owner_id"))
     data["tags"] = data["uuid"].map(lambda x: question_info_dict.get(x, {}).get("tags"))
     # convert timestamp into a readable format, the strftime is the format neo4j looks for in datetime
-    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce").dt.strftime('%Y-%m-%dT%H:%M:%S')
+    data["creation_date_formatted"] = pd.to_datetime(data["creation_date"], unit="s", errors="coerce").dt.strftime(
+        "%Y-%m-%dT%H:%M:%S"
+    )
 
     # check our work
     logger.info(f"\nDataFrame update complete! {len(question_ids)} records updated.")

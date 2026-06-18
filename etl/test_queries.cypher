@@ -57,3 +57,11 @@ RETURN
     max(p.creation_date) AS latest_post_date
 ORDER BY total_posts DESC 
 LIMIT 5;
+
+// find 5 questions that have accepted answers
+MATCH (q:Question)-[accepted:ACCEPTS_ANSWER]->(a:Answer)
+RETURN
+	q.uuid AS question_uuid,
+	q.view_count AS view_count,
+	a.uuid AS answer_uuid
+LIMIT 5;

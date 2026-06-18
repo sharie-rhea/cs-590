@@ -45,19 +45,21 @@ SET q.question_id = toInteger(question_row.`question_id`),
 	q.view_count = toInteger(question_row.`view_count`),
 	q.body_markdown = question_row.`body_markdown`,
 	q.uuid = toInteger(question_row.`uuid`),
-	q.title = question_row.`title`
+	q.title = question_row.`title`;
 
 // and link them to the user who posted them
-WITH q, question_row
+LOAD CSV WITH HEADERS from "file:///cleaned/question.csv" AS question_row
+MATCH (q:Question {uuid: toInteger(question_row.`uuid`)})
 OPTIONAL MATCH (user:User {uuid: toInteger(question_row.`user_uuid`)})
 FOREACH (ignore IN CASE WHEN user IS NOT NULL THEN [1] ELSE [] END |
     CREATE (user)-[:POSTS {
         creation_date: datetime(question_row.`creation_date_formatted`)
     }]->(q)
-)
+);
 
 // and link tags to this question
-WITH q, question_row
+LOAD CSV WITH HEADERS from "file:///cleaned/question.csv" AS question_row
+MATCH (q:Question {uuid: toInteger(question_row.`uuid`)})
 UNWIND split(question_row.`tags`, "|") AS tag_name
 OPTIONAL MATCH (tag:Tag) WHERE tag.name = tag_name
 FOREACH (ignoreMe IN CASE WHEN tag IS NOT NULL THEN [1] ELSE [] END |
@@ -72,25 +74,32 @@ SET a.answer_id = toInteger(answer_row.`answer_id`),
 	a.title = answer_row.`title`,
 	a.body_markdown = answer_row.`body_markdown`,
 	a.score = toInteger(answer_row.`score`),
-	a.uuid = toInteger(answer_row.`uuid`)
+	a.uuid = toInteger(answer_row.`uuid`);
 
 // and link them to the user who posted them
-WITH a, answer_row
+LOAD CSV WITH HEADERS from "file:///cleaned/answer.csv" AS answer_row
+MATCH (a:Answer {uuid: toInteger(answer_row.`uuid`)})
 OPTIONAL MATCH (user:User {uuid: toInteger(answer_row.`user_uuid`)})
 FOREACH (ignore IN CASE WHEN user IS NOT NULL THEN [1] ELSE [] END |
     CREATE (user)-[:POSTS {
         creation_date: datetime(answer_row.`creation_date_formatted`)
     }]->(a)
-)
+);
 
 // and to the question they are answering
-WITH a, answer_row
+LOAD CSV WITH HEADERS from "file:///cleaned/answer.csv" AS answer_row
+MATCH (a:Answer {uuid: toInteger(answer_row.`uuid`)})
 OPTIONAL MATCH (question:Question) 
 WHERE question.uuid = toInteger(split(answer_row.`question_uuid`, ".")[0])
-FOREACH (ignore IN CASE WHEN question IS NOT NULL THEN [1] ELSE [] END |
-    CREATE (a)-[:ANSWERS {
-        accepted: toBoolean(toLower(answer_row.`is_accepted`))
-    }]->(question)
+// for each to ignore "orphan" answers -> we don't know the question they're responding to
+FOREACH (match_found IN CASE WHEN question IS NOT NULL THEN [1] ELSE [] END |
+	// always create an answers relationship if found
+    CREATE (a)-[:ANSWERS]->(question)
+
+	// if this answer was accepted, also create edge from q->a
+	FOREACH (accepted_answer IN CASE WHEN toBoolean(toLower(answer_row.`is_accepted`)) THEN [1] ELSE [] END |
+        CREATE (question)-[:ACCEPTS_ANSWER]->(a)
+    )
 );
 
 // --- create comment nodes
@@ -99,19 +108,21 @@ CREATE (c:Comment)
 SET c.comment_id = toInteger(comment_row.`comment_id`),
 	c.score = toInteger(comment_row.`score`),
 	c.uuid = toInteger(comment_row.`uuid`),
-	c.link = comment_row.`link`
+	c.link = comment_row.`link`;
 
 // and link them to the user who posted them
-WITH c, comment_row
+LOAD CSV WITH HEADERS from "file:///cleaned/comment.csv" AS comment_row
+MATCH (c:Comment {uuid: toInteger(comment_row.`uuid`)})
 OPTIONAL MATCH (user:User {uuid: toInteger(comment_row.`user_uuid`)})
 FOREACH (ignore IN CASE WHEN user IS NOT NULL THEN [1] ELSE [] END |
     CREATE (user)-[:POSTS {
         creation_date: datetime(comment_row.`creation_date_formatted`)
     }]->(c)
-)
+);
 
 // and to the question they are commenting on
-WITH c, comment_row
+LOAD CSV WITH HEADERS from "file:///cleaned/comment.csv" AS comment_row
+MATCH (c:Comment {uuid: toInteger(comment_row.`uuid`)})
 OPTIONAL MATCH (question:Question) 
 WHERE question.uuid = toInteger(split(comment_row.`question_uuid`, ".")[0])
 FOREACH (ignore IN CASE WHEN question IS NOT NULL THEN [1] ELSE [] END |

@@ -100,7 +100,7 @@ class StackOverflowAPI:
                 logger.debug(f"Posted By: {owner.get('display_name')} (User ID: {owner_id})")
                 logger.debug(f"Tags: {'|'.join(tags)}\n")
 
-                results[question_id] = {"owner_id": owner_id, "tags": '|'.join(tags)}
+                results[question_id] = {"owner_id": owner_id, "tags": "|".join(tags)}
 
         return results
 
@@ -134,7 +134,11 @@ class StackOverflowAPI:
                 logger.debug(f"Posted By: {owner.get('display_name')} (User ID: {owner_id})")
                 logger.debug(f"Score: {item.get('score')}\n")
 
-                results[answer_id] = {"owner_id": owner_id, "question_uuid": question_uuid, "creation_date": raw_timestamp}
+                results[answer_id] = {
+                    "owner_id": owner_id,
+                    "question_uuid": question_uuid,
+                    "creation_date": raw_timestamp,
+                }
 
         return results
 
