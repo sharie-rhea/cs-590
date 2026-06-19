@@ -22,6 +22,13 @@ CREATE CONSTRAINT u_q_id FOR (q:Question) REQUIRE q.uuid IS UNIQUE;
 CREATE CONSTRAINT u_t_id FOR (t:Tag) REQUIRE t.tag_id IS UNIQUE;
 CREATE CONSTRAINT u_u_id FOR (u:User) REQUIRE u.uuid IS UNIQUE;
 
+// create indexes for faster searches on text fields
+CREATE INDEX user_name_idx FOR (u:User) ON (u.display_name);
+CREATE INDEX tag_name_idx FOR (t:Tag) ON (t.name);
+
+CREATE FULLTEXT INDEX post_content_idx FOR (n:Question|Answer) 
+ON EACH [n.title, n.body_markdown];
+
 // create tags and users first as they are "independent" nodes
 // --- create tag nodes
 LOAD CSV WITH HEADERS from "file:///cleaned/tag.csv" AS tag_row
@@ -98,6 +105,7 @@ FOREACH (match_found IN CASE WHEN question IS NOT NULL THEN [1] ELSE [] END |
 
 	// if this answer was accepted, also create edge from q->a
 	FOREACH (accepted_answer IN CASE WHEN toBoolean(toLower(answer_row.`is_accepted`)) THEN [1] ELSE [] END |
+		// wish there was a way to restrict so that only ONE edge of this type may exist for each question...
         CREATE (question)-[:ACCEPTS_ANSWER]->(a)
     )
 );
