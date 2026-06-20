@@ -15,6 +15,10 @@ DROP CONSTRAINT u_q_id IF EXISTS;
 DROP CONSTRAINT u_t_id IF EXISTS;
 DROP CONSTRAINT u_u_id IF EXISTS;
 
+DROP INDEX user_name_idx IF EXISTS;
+DROP INDEX tag_name_idx IF EXISTS;
+DROP INDEX post_content_idx IF EXISTS;
+
 // create unique constraints so future MATCHes are faster
 CREATE CONSTRAINT u_a_id FOR (a:Answer) REQUIRE a.uuid IS UNIQUE;
 CREATE CONSTRAINT u_c_id FOR (c:Comment) REQUIRE c.uuid IS UNIQUE;

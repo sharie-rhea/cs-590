@@ -1,0 +1,41 @@
+Preparing to clean and enrich raw CSV files...
+Clean and enrich Answers? [y/N]: Clean and enrich Comments? [y/N]: Clean and enrich Questions? [y/N]: Clean and enrich Tags? [y/N]: Clean and enrich Users? [y/N]: Data preprocessing complete!
+
+Copying newly cleaned CSVs into database import directory...
+
+Preparing to load data into the stackoverflow database...
+User: cs590 Database: stackoverflow
+Data loading complete!
+
+Starting validation queries...
+node_type, count
+"Question", 1589
+"Comment", 1396
+"Answer", 1367
+"User", 1365
+"Tag", 476
+relationship_type, count
+"ANSWERS", 1358
+"RESPONDS_TO", 1396
+"POSTS", 3960
+"TAGGED_WITH", 3651
+"ACCEPTS_ANSWER", 617
+unknown_author_type, count
+"Answer", 14
+"Comment", 101
+"Question", 277
+question_author, tags, answers, comments
+"Trần Tuấn Anh", ["neo4j", "spring-boot", "spring", "spring-data-neo4j"], 3, 3
+username, total_posts, total_answers, total_questions, total_comments, first_post_date, latest_post_date
+"cybersam", 317, 211, 0, 106, 2020-04-24T19:30:13Z, 2020-12-10T02:19:33Z
+"Tomaž Bratanič", 181, 99, 0, 82, 2020-05-20T16:55:46Z, 2021-09-20T09:06:14Z
+"jose_bacoy", 164, 91, 0, 73, 2020-11-20T22:01:58Z, 2021-09-16T23:34:22Z
+"InverseFalcon", 141, 90, 0, 51, 2020-04-28T18:08:59Z, 2021-06-24T22:43:03Z
+"Graphileon", 133, 120, 1, 12, 2020-06-20T10:20:55Z, 2021-09-21T10:03:29Z
+question_uuid, view_count, answer_uuid
+65697972, 70, 65954158
+65676685, 114, 65680054
+65669613, 656, 65673386
+69176618, 37, 69183234
+69017229, 24, 69017503
+Validation complete!
